@@ -9,6 +9,8 @@ for (  i=0 ; age <= 0; i++){
     var age = window.prompt("Enter your Age: ");
 }
 
+
+
 var conf=  window.prompt("Do you want to skip welcome message ? please enter yes or no");
 if(conf== 'no')
 {//alert ("Do you want to skip welcome message ? ")
@@ -25,4 +27,7 @@ if(conf== 'no')
             alert("Welcome, " + name );
         }
     }
+
+
+
 
